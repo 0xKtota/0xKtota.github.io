@@ -1,0 +1,46 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+  }
+  
+  .linktree-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .linktree-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .linktree-links li {
+    margin-bottom: 10px;
+  }
+  
+  .linktree-links a {
+    font-size: 18px;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .linktree-links a:hover {
+    color: #333;
+  }
+  
