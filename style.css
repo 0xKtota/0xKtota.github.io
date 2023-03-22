@@ -375,11 +375,3 @@ body {
   left: auto;
   right: 5px;
 }
-
-.el__content-page {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
